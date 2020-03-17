@@ -14,22 +14,22 @@
       <div id="current-operand" data-current-operand class="current-operand"></div>
     </div>
     <button data-all-clear class="span-two" onclick="clearAll()">AC</button>
-    <button data-delete>DEL</button>
+    <button onclick="deleteThis()">DEL</button>
     <button data-operation>÷</button>
-    <button data-number>1</button>
-    <button data-number>2</button>
-    <button data-number>3</button>
+    <button value="1" onclick="visor(value)">1</button>
+    <button value="2" onclick="visor(value)">2</button>
+    <button value="3" onclick="visor(value)">3</button>
     <button data-operation>*</button>
-    <button data-number>4</button>
-    <button data-number>5</button>
-    <button data-number>6</button>
+    <button value="4" onclick="visor(value)">4</button>
+    <button value="5" onclick="visor(value)">5</button>
+    <button value="6" onclick="visor(value)">6</button>
     <button data-operation>+</button>
-    <button data-number>7</button>
-    <button data-number>8</button>
-    <button data-number>9</button>
+    <button value="7" onclick="visor(value)">7</button>
+    <button value="8" onclick="visor(value)">8</button>
+    <button value="9" onclick="visor(value)">9</button>
     <button data-operation>-</button>
-    <button data-number>.</button>
-    <button data-number>0</button>
+    <button value="." onclick="visor(value)" data-number>.</button>
+    <button value="0" onclick="visor(value)" data-number>0</button>
     <button data-equals class="span-two">=</button>
 
   </div>
