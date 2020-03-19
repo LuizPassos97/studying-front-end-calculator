@@ -13,7 +13,7 @@
       <div id="previous-operand" data-previous-operand class="previous-operand"></div>
       <div id="current-operand" data-current-operand class="current-operand"></div>
     </div>
-    <button data-all-clear class="span-two" onclick="clearAll()">AC</button>
+    <button class="span-two" onclick="clearAll()">AC</button>
     <button onclick="deleteThis()">DEL</button>
     <button onclick="updateVisor(value)" value="÷">÷</button>
     <button value="1" onclick="visor(value)">1</button>
@@ -28,7 +28,7 @@
     <button value="8" onclick="visor(value)">8</button>
     <button value="9" onclick="visor(value)">9</button>
     <button onclick="updateVisor(value)" value="-">-</button>
-    <button value="." onclick="visor(value)" data-number>.</button>
+    <button value="." onclick="addComma(value)" data-number>.</button>
     <button value="0" onclick="visor(value)" data-number>0</button>
     <button onclick="checkString()" class="span-two">=</button>
 
